@@ -25,6 +25,13 @@ body#page-top {
     text-align: left!important;
     color: #C0D679;
 }
+.text-centerNav2{
+    padding-top: 2%;
+    padding-bottom: 0%;
+    margin-left: 27%;
+    text-align: left!important;
+    color: #C0D679;
+}
 .habitacionesTitulo {
     color: #64a19d;
     text-align: center;
@@ -61,11 +68,17 @@ li.nav-item:last-child {
     padding-left: 3%;
 }
 
-.bookPortada {
+.bookPortadaEsp {
     border: 1px solid #fff;
     color: #fff;
     padding: 7px 40px;
     margin-left: 30%;
+}
+.bookPortada {
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 7px 40px;
+    margin-left: 42%;
 }
 .bookPortada2 {
     border: 1px solid #fff;
@@ -370,7 +383,7 @@ img#logo {
     }
 
  .masthead h2{
-     max-width:20rem;
+     max-width:72rem!important;
      font-size:1rem
     }
 
