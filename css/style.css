@@ -21,14 +21,14 @@ body#page-top {
 .text-centerNav{
     padding-top: 2%;
     padding-bottom: 0%;
-    margin-left: 19%;
+    margin-left: 22.4%;
     text-align: left!important;
     color: #C0D679;
 }
 .text-centerNav2{
     padding-top: 2%;
-    padding-bottom: 0%;
-    margin-left: 27%;
+    padding-bottom: 1%;
+    margin-left: 30%;
     text-align: left!important;
     color: #C0D679;
 }
@@ -51,7 +51,8 @@ body#page-top {
 a.datosContact {
     color: #C0D679!important;
     padding-right: 18px!important;
-    padding-left: 0!important;;
+    padding-left: 0!important;
+    font-size: 14px;
 }
 div ul.navbar-nav {
     margin-left: 39%!important;
@@ -1097,5 +1098,30 @@ iframe.snapwidget-widget {
 
 .soft {
     height: 400px;
+}
+
+.iconFooter{
+    margin-right: 1%;
+    width: 4%;
+}
+
+h5 .iconFooter {
+    
+    width: 8.4%;
+}
+
+.iconFooter3 {
+    margin-right: 2.5%;
+    
+}
+
+.margenfooter {
+    margin-left: 10%!important;
+    
+}
+
+.marginBotton{ 
+    margin-left: 4%;
+    margin-bottom: 1%;
 }
 
