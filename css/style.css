@@ -15,7 +15,7 @@ body#page-top {
 }
 
 .lengUAJE{
-    width: 6%;
+    width: 5%;
 }
 
 .text-centerNav{
@@ -85,7 +85,7 @@ li.nav-item:last-child {
     border: 1px solid #fff;
     color: #fff;
     padding: 7px 40px;
-    margin-left: 43%;
+    margin-left: 41%;
 }
 
 
@@ -1114,8 +1114,12 @@ h5 .iconFooter {
 }
 
 .iconFooter3 {
-    margin-right: 2.5%;
+    margin-right: 2.3%;
     
+}
+
+.ecoMargen {
+    margin-left: 36%!important;
 }
 
 .margenfooter {
@@ -1128,3 +1132,74 @@ h5 .iconFooter {
     margin-bottom: 1%;
 }
 
+@media only screen and (max-width: 768px) {
+    nav div img#logo {
+        display: none;
+    }
+
+    nav {
+        overflow: hidden;
+    }
+
+    nav div a {
+        background-image: url(../img/logoJAMULODGEverde.png);
+    }
+
+    .text-centerNav {
+        margin-left: -7%;
+        font-size: 13px;
+        padding: 0;
+    }
+    a.datosContact {
+    margin-right: -10px;
+    margin-left: 68px;
+    padding-right: 35px!important;
+    }
+
+    .text-white-50Home {
+        margin-top: 56%!important;
+        font-size: 18px!important;
+    }
+
+    .bookPortadaEsp{
+        margin-left: 23%;
+    }
+    .masthead {
+        width: 100%;
+    }
+    #mainNav {
+        background-color: 0;
+        width: 94%!important;
+    }
+
+    .contact-section{
+
+        width: 100%;
+    }
+
+    .contact-section .card-bodyF {
+        font-size: 10px;
+        margin-left: 5%;
+    }
+
+    #signup{
+        width: 90%;
+    }
+
+    #signup div input{
+        width: 90%;
+    }
+
+    #signup div textarea {
+        width: 90%;
+    }
+
+    footer {
+        height: 40px;
+    }
+
+    section.carousel{
+        display: none;
+    }
+
+  }
