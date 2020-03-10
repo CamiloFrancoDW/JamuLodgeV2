@@ -935,9 +935,13 @@ form#signup h4{
 }
 
 .masInformacion {
+    display: flex;
     text-align: center;
     background-color: #356432;
     color: #fff;
+}
+div.masInformacion div {
+    float: left;
 }
 
 .masInformacion div h5:first-child {
@@ -956,20 +960,43 @@ form#signup h4{
 }
 
 #imgProgramExperiencias {
-    width: 100%!important;
+    width: 65%!important;
+    margin-left: 60px;
    
 }
 
-.masInformacion div.infoExperiencias {
-    width: 32.2%;
-}
-.masInformacion div.infoExperiencias:nth-child(2) {
-    width: 35.7%;
+.aboutMoreInfo{
+    display: flex;
 }
 
-.masInformacion div.infoExperiencias:nth-child(3) {
-    width: 32%;
+.aboutInfo {
+    float: left;
+    padding-right: 0!important; 
+    padding-left: 0!important;
+    text-align: center;
+    background-color: #356432;
+    color: #fff;
 }
+
+.aboutInfo img{
+    width: 100%; 
+}
+
+.aboutInfo h5:first-child{
+    margin-top: 20%;
+}
+
+.aboutMoreInfo .anclaMasInfo {
+    color: #fff!important; 
+    border: 1px solid #fff;  
+    padding: 5px 20px;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 12px;
+}
+
+
+
+
 
 .masInformacion div p {
     margin-bottom: 10%;
