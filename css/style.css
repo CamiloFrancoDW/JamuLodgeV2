@@ -253,6 +253,9 @@ img#logo {
      outline:0
     }
 
+.justificar{
+    text-align: justify!important;
+}
  
  #mainNav .navbar-brand{
      color:#161616;
@@ -921,7 +924,7 @@ form#signup h4{
     margin-top: 20px;
 }
 .actLodge {
-    width: 90%;
+    width: 79%;
     
 }
 
