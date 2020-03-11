@@ -20,7 +20,7 @@ body#page-top {
 
 .text-centerNav{
     padding-top: 2%;
-    padding-bottom: 0%;
+    padding-bottom: 1%;
     margin-left: 22.4%;
     text-align: left!important;
     color: #C0D679;
@@ -814,7 +814,7 @@ margin-left: 4%;
 }
 
 .contact-section{
-    padding:5rem 0 0
+    padding:2rem 0 0;
 }
 
 .text-center {
@@ -1154,6 +1154,14 @@ h5 .iconFooter {
     
 }
 
+div .imgComedorDos {
+
+        float: left;
+        width: 90%;
+        margin-left: 0%;
+        display: none;
+}
+
 .marginBotton{ 
     margin-left: 4%;
     margin-bottom: 1%;
@@ -1239,6 +1247,13 @@ h5 .iconFooter {
         padding-top: 4%;
     }
 
+    .comedor div.imgComedor {
+    
+        display: none;
+    }
+
+
+
     #enviar a{
         color: #fff!important;
         font-size: 20px;
@@ -1253,7 +1268,8 @@ h5 .iconFooter {
     }
 
     footer {
-        height: 40px;
+        height: 120px!important;
+        text-align: center;
     }
 
     section.carousel{
@@ -1261,7 +1277,7 @@ h5 .iconFooter {
     }
 
     div.card {
-        margin-left: 15%;
+        margin-left: 16%;
         margin-bottom: 4%;
     }
 
@@ -1315,5 +1331,104 @@ h5 .iconFooter {
         overflow: hidden;
     }
 
+    .copyFooter {
+        float: left;
+        margin-left: 0%;
+        color: black!important;
+        margin-bottom: 4%;
+    }
+
+    .social {
+        float: left;
+        font-size: 14px!important;
+        color: #C0D679!important;
+        text-align: center;
+        margin-left: 33%!important;
+        margin-bottom: 4%;
+    }
+
+    .copyFooter:last-child {
+        float: left;
+        margin-left: 25%;
+        color: black!important;
+    }
+
+
+    .servicios {
+        text-align: center;
+        padding: 1%;
+        width: 230px;
+        height: 250px;
+        background-color: rgb(192,214,121);
+        font-size: 12px;
+        float: left;
+        margin: 1%;
+        margin-left: 10%;
+    }
+    .logistic {
+        color: #356432;
+        text-align: center;
+        margin-left: -10%;
+        margin-top: 2%;
+    }
+
+    header.masthead2 div div h1 {
+        margin-top: 36%!important;
+    }
+    header.masthead2 div div p {
+        text-align: justify;
+        padding: 8%;
+    }
+
+    .bookPortada2 {
+        border: 1px solid #fff;
+        color: #fff;
+        padding: 7px 40px;
+        margin-left: 25%;
+        margin-bottom: 6%;
+    }
+    .actLodge {
+        margin-top: -5%;
+        width: 100%;
+    }
+
+    div .imgComedorDos  {
+
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+        margin-left: 0%;
+        display: block;
+        margin-bottom: 10%;
+    }
+
+    div .imgComedorDos .comerdor {
+        margin-top: -5%;
+        width: 100%;
+    }
+
+    .comedor .textoComedor {
+        padding: 2rem;
+        border-right: 0;
+    }
+
+    .habitacionesTitulo {
+        color: #64a19d;
+        text-align: center;
+        margin-bottom: 4%;
+        margin-top: 1%;
+        font-size: 28px!important;
+    }
+    main.faqs {
+        float: left;
+        margin-top: 25%;
+        padding-left: 10%;
+        width: 100%;
+        color: #fff;
+    }
+
+    .soft {
+        height: 811px;
+    }
 
   }
