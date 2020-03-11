@@ -1164,6 +1164,14 @@ h5 .iconFooter {
         display: none;
     }
 
+    #mainNav .navbar-toggler {
+        margin-right: 2%;
+        font-size: 80%;
+        padding: .75rem;
+        color: #64a19d;
+        border: 1px solid #64a19d;
+    }
+
     nav {
         overflow: hidden;
     }
@@ -1196,7 +1204,7 @@ h5 .iconFooter {
     }
     #mainNav {
         background-color: 0;
-        width: 94%!important;
+        width: 100%!important;
     }
 
     .contact-section{
@@ -1205,20 +1213,43 @@ h5 .iconFooter {
     }
 
     .contact-section .card-bodyF {
-        font-size: 10px;
-        margin-left: 5%;
+        font-size: 12px;
+        margin-left: 3%;
+    }
+
+    .contact-section {
+        padding: 2rem 0 0;
+    }
+
+    form#signup h4 {
+        margin-left: 4%;
     }
 
     #signup{
         width: 90%;
+        margin-left: 3%;
+    }
+
+    #enviar {
+        margin-top: 2%;
+        margin-left: 4.7%;
+        width: 91%;
+        height: 15%;
+        margin-bottom: 4%;
+        padding-top: 4%;
+    }
+
+    #enviar a{
+        color: #fff!important;
+        font-size: 20px;
     }
 
     #signup div input{
-        width: 90%;
+        width: 100%;
     }
 
     #signup div textarea {
-        width: 90%;
+        width: 100%;
     }
 
     footer {
@@ -1228,5 +1259,61 @@ h5 .iconFooter {
     section.carousel{
         display: none;
     }
+
+    div.card {
+        margin-left: 15%;
+        margin-bottom: 4%;
+    }
+
+    .bg-blackDos {
+        background-color: #F3F6E6!important;
+        padding: 20px 0;
+    }
+    .projects-section {
+        padding: 1rem 0;
+        
+    }
+    .habitacionesP {
+        text-align: center;
+        width: 81%;
+        margin-left: 10%;
+    }
+
+    .mb-5, .my-5 {
+        margin-bottom: 0rem!important;
+    }
+
+    .ecolodgeEsp h5 {
+        text-align: center;
+        float: left;
+        margin: 0%;
+        margin-left: 8%;
+        margin-top: 20px;
+    }
+
+    .leerMaso {
+        color: #356432;
+        border: 1px solid #356432;
+        float: left;
+        width: 30%;
+        padding: 5px 2px 5px 2px;
+        text-align: center;
+        margin: 1%;
+        margin-left: 35%;
+        margin-bottom: 20px;
+        margin-top: 8px;
+    }
+
+    .aboutMoreInfo {
+        display: flex;
+        width: 100%;
+    }
+
+    
+
+    .carroIn {
+        overflow: hidden;
+    }
+
 
   }
