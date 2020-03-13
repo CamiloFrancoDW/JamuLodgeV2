@@ -377,7 +377,7 @@ img#logo {
        }
  
  .masthead h1{
-     font-family:'Roboto';
+    font-family: 'Monserrat', sans-serif;
      font-size:2.5rem;
      line-height:2.5rem;
      letter-spacing:.8rem;
@@ -513,7 +513,7 @@ h4.faqsTitulo {
 }
 
 #reservasButton{
-    font-family: 'Roboto';
+    font-family: 'Monserrat', sans-serif;
     margin-left: 35%;
     width: 30%;
     margin-bottom: 0%;
@@ -579,7 +579,7 @@ form h4 {
 .btn{
     box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
     padding:1.25rem 2rem;
-    font-family:'Roboto';
+    font-family: 'Monserrat', sans-serif;
     font-size:80%;
     text-transform:uppercase;
     letter-spacing:.15rem;
@@ -806,7 +806,7 @@ margin-left: 4%;
     box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
     padding:1.25rem 2rem;
     height:auto;
-    font-family:'Roboto';
+    font-family: 'Monserrat', sans-serif;
     font-size:80%;
     text-transform:uppercase;
     letter-spacing:.15rem;
@@ -832,18 +832,23 @@ margin-left: 4%;
     margin-top: -15%;
     margin-bottom: 2%!important;
     font-size: 48px!important;
-    font-family: 'Roboto'!important;
+    font-family: 'Monserrat', sans-serif!important;
 }
 
-.contact-section .card{border:0;border-bottom:.25rem solid #64a19d}
-.contact-section .card h4{font-size:.8rem;font-family:'Roboto';text-transform:uppercase;letter-spacing:.15rem}
+.contact-section .card{
+    border:0;
+    border-bottom:.25rem solid #64a19d;
+}
+
+.contact-section .card h4{font-size:.8rem;font-family: 'Monserrat', sans-serif;text-transform:uppercase;letter-spacing:.15rem}
 .contact-section .card hr{border-color:#64a19d;border-width:.25rem;width:3rem}
 .contact-section .social{margin-top:5rem}
 .contact-section .social a{text-align:center;height:3rem;width:3rem;background:rgba(255,255,255,.1);border-radius:100%;line-height:3rem;color:rgba(255,255,255,.3)}
 .contact-section .social a:hover{color:rgba(255,255,255,.5)}
 .contact-section .social a:active{color:#fff}
 
-body{font-family: 'Roboto';
+body{
+    font-family: 'Monserrat', sans-serif;
     letter-spacing:.0625em;
 }
 a{
