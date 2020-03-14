@@ -1352,8 +1352,9 @@ div .imgComedorDos {
         font-size: 14px!important;
         color: #C0D679!important;
         text-align: center;
-        margin-left: 33%!important;
+        margin-left: 30%!important;
         margin-bottom: 4%;
+        width: 40%;
     }
 
     .copyFooter:last-child {
@@ -1505,6 +1506,12 @@ div .imgComedorDos {
 
     .divprog2 {
         display: block;
+    }
+
+    .text-center2 {
+        padding-top: 0%;
+        padding-bottom: 0%;
+        text-align: center!important;
     }
 
   }
