@@ -927,6 +927,7 @@ form#signup h4{
     margin: 1%;
     margin-left: 31%;
     margin-top: 20px;
+    
 }
 .actLodge {
     width: 79%;
@@ -1312,8 +1313,9 @@ div .imgComedorDos {
         text-align: center;
         float: left;
         margin: 0%;
-        margin-left: 8%;
+        margin-left: 5%;
         margin-top: 20px;
+        width: 90%;
     }
 
     .leerMaso {
@@ -1449,7 +1451,7 @@ div .imgComedorDos {
     }
 
     .modal-content {
-        width: 70%!important;
+        width: 90%!important;
     }
 
     .Programas {
@@ -1474,6 +1476,7 @@ div .imgComedorDos {
         width: 60%;
         font-size: 16px;
         margin-bottom: 0%;
+        margin-bottom: 10%;
     }
 
     .featured-text2 {
@@ -1512,6 +1515,10 @@ div .imgComedorDos {
         padding-top: 0%;
         padding-bottom: 0%;
         text-align: center!important;
+    }
+
+    .mb-5, .my-5 {
+        margin-bottom: 5rem!important;
     }
 
   }
