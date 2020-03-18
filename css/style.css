@@ -75,6 +75,10 @@ li.nav-item:last-child {
     padding: 7px 40px;
     margin-left: 34%;
 }
+
+a.Eng {
+    margin-left: 41%!important;
+}
 .bookPortada {
     border: 1px solid #fff;
     color: #fff;
@@ -1199,6 +1203,14 @@ div .imgComedorDos {
     width: 97%;
 }
 
+#logoVerdeNav{
+    display: none;
+}
+
+
+section.engl {
+    padding-left: 8%;
+}
 
 @media only screen and (max-width: 768px) {
     nav div img#logo {
@@ -1238,10 +1250,11 @@ div .imgComedorDos {
     }
 
     .bookPortadaEsp{
-        margin-left: 23%;
+        margin-left: 25%;
     }
     .masthead {
         width: 100%;
+        
     }
     #mainNav {
         background-color: 0;
@@ -1390,7 +1403,7 @@ div .imgComedorDos {
 
     .copyFooter {
         float: left;
-        margin-left: 0%;
+        margin-left: 5%!important;
         color: black!important;
         margin-bottom: 4%;
     }
@@ -1400,14 +1413,14 @@ div .imgComedorDos {
         font-size: 14px!important;
         color: #C0D679!important;
         text-align: center;
-        margin-left: 30%!important;
+        margin-left: 35%!important;
         margin-bottom: 4%;
         width: 40%;
     }
 
     .copyFooter:last-child {
         float: left;
-        margin-left: 25%;
+        margin-left: 25%!important;
         color: black!important;
     }
 
@@ -1578,5 +1591,28 @@ div .imgComedorDos {
     .buttonModalRes {
         width: 100%;
     }
+
+    #logoVerdeNav{
+        display: inline;
+        width: 50%;
+    }
+
+    #mainNav .navbar-brand {
+        width: 70%;
+    }
+
+    .moreInfoSectionDes{
+        display: none;
+    }
+
+    section.engl {
+        padding-left: 0%;
+    }
+
+    a.Eng {
+        margin-left: 25%!important;
+    }
+
+    
 
   }
