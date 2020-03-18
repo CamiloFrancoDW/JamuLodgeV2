@@ -993,7 +993,7 @@ div.masInformacion div {
 }
 
 .aboutInfo h5:first-child{
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 .aboutMoreInfo .anclaMasInfo {
@@ -1394,7 +1394,10 @@ section.engl {
         background-color: #356432;
         color: #fff;
         width: 100%;
+        height: 261px;
     }
+
+    
     
 
     .carroIn {
