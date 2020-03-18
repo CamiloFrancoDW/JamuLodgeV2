@@ -1212,6 +1212,22 @@ section.engl {
     padding-left: 8%;
 }
 
+
+.copyFooterEng {
+    margin-left: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 768px) {
     nav div img#logo {
         display: none;
@@ -1616,6 +1632,8 @@ section.engl {
         margin-left: 25%!important;
     }
 
-    
+    .copyFooterEng {
+        margin-left: 15%!important;
+    }
 
   }
