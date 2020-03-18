@@ -1177,6 +1177,29 @@ div .imgComedorDos {
     display: none;
 }
 
+.secResponsive {
+    display: none;
+}
+
+
+
+/* reservas */
+
+.featured-textRes {
+    padding: 0 0 0 2rem;
+    border-left: none;
+}
+
+.buttonModalRes {
+    width: 100%;
+}
+
+#buttonModalRes {
+    margin-top: 2%;
+    width: 97%;
+}
+
+
 @media only screen and (max-width: 768px) {
     nav div img#logo {
         display: none;
@@ -1228,6 +1251,17 @@ div .imgComedorDos {
     .contact-section{
 
         width: 100%;
+    }
+
+    .secResponsive {
+        display: block;
+        margin-right: 0px!important;
+        margin-left: 0px!important; 
+    
+    }
+
+    .secAbout {
+        display: none;
     }
 
     .contact-section .card-bodyF {
@@ -1334,8 +1368,20 @@ div .imgComedorDos {
     .aboutMoreInfo {
         display: flex;
         width: 100%;
+        overflow: hidden;
+        margin-right: 0px!important;
+        margin-left: 0px!important;
     }
 
+    .aboutInfo {
+        float: left;
+        padding-right: 0!important;
+        padding-left: 0!important;
+        text-align: center;
+        background-color: #356432;
+        color: #fff;
+        width: 100%;
+    }
     
 
     .carroIn {
@@ -1519,6 +1565,18 @@ div .imgComedorDos {
 
     .mb-5, .my-5 {
         margin-bottom: 5rem!important;
+    }
+
+
+    
+
+    .featured-textRes {
+        padding: 0 0 0 2rem;
+        border-left: none;
+    }
+
+    .buttonModalRes {
+        width: 100%;
     }
 
   }
