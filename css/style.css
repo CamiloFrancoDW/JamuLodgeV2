@@ -1350,9 +1350,12 @@ section.engl {
     }
 
     div.card {
-        margin-left: 16%;
+        margin-left: 15%;
         margin-bottom: 4%;
+        
     }
+
+    
 
     .bg-blackDos {
         background-color: #F3F6E6!important;
@@ -1507,7 +1510,7 @@ section.engl {
         color: #64a19d;
         text-align: center;
         margin-bottom: 4%;
-        margin-top: 1%;
+        margin-top: 10%;
         font-size: 28px!important;
     }
     main.faqs {
